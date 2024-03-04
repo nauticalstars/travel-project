@@ -2,7 +2,9 @@ body {
   font-family: "poppins", sans-serif;
   background-color: #272044;
 }
-
+.text-center {
+  text-align: center;
+}
 .main-img {
   max-width: 100%;
 }
@@ -20,10 +22,24 @@ body {
 .grid-temp-3-col {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background: white;
+}
+.card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+}
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+section.second {
+  background: lightgray;
 }
 header {
   text-align: center;
