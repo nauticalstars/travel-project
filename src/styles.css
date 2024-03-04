@@ -158,11 +158,11 @@ a {
   header h3 {
     font-size: 12px;
   }
+  section {
+    padding: 30px;
+  }
   .grid {
     grid-template-columns: 1fr;
     gap: 32px;
-  }
-  section {
-    padding: 30px;
   }
 }
