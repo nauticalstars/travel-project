@@ -60,7 +60,9 @@ body {
   width: 100%;
   aspect-ratio: 1/1;
 }
-
+.third {
+  background: white;
+}
 section {
   max-width: 100%;
   margin: 0 auto;
