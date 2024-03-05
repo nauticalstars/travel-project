@@ -61,7 +61,7 @@ body {
   aspect-ratio: 1/1;
 }
 .third {
-  background: white;
+  margin: 30px 0;
 }
 section {
   max-width: 100%;
