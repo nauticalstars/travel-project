@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 .main-img {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .container {
@@ -51,6 +51,14 @@ body {
 
 .card-footer {
   padding: 0 30px 30px;
+}
+.card-header.grid {
+  gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 section {
